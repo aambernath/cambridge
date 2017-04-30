@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cambridge *.css
+recursive-include cambridge *.csv
+recursive-include cambridge *.html
+recursive-include cambridge *.ico
+recursive-include cambridge *.js
+recursive-include cambridge *.json
+recursive-include cambridge *.md
+recursive-include cambridge *.png
+recursive-include cambridge *.py
+recursive-include cambridge *.svg
+recursive-include cambridge *.txt
+recursive-exclude cambridge *.pyc
